@@ -5,9 +5,12 @@
  */
 package com.springshiro.domain;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Role {
+public class Role implements Serializable{
+
+    private static final long serialVersionUID = -6753946337719420014L;
     private Long id;
     private String roleName;
     private User user;
