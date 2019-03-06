@@ -5,9 +5,10 @@
  */
 package com.springshiro.domain;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Role {
+public class Role implements Serializable{
     private Long id;
     private String roleName;
     private User user;
